@@ -12,7 +12,7 @@ public class fortyTwoGUI {
 	MyButton b2 = new MyButton();
 	MyButton b3 = new MyButton();
 
-	public void TrackButton() {
+	public void LaunchGUI() {
 
 		ImageIcon icon = new ImageIcon("assets/discord.png");
 
@@ -75,7 +75,7 @@ public class fortyTwoGUI {
 	}
 
 	public static void main(String[] args) {
-		fortyTwoGUI jb = new fortyTwoGUI();
-		jb.TrackButton();
+		fortyTwoGUI project = new fortyTwoGUI();
+		project.LaunchGUI();
 	}
 }
