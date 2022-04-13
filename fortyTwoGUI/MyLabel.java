@@ -9,7 +9,7 @@ import javax.swing.border.Border;
 
 public class MyLabel extends JLabel {
 
-	ImageIcon image = new ImageIcon("/assets/42_logo.png");
+	ImageIcon image = new ImageIcon("assets/42_logo.png");
 
 	MyLabel() {
 		this.setIcon(image);

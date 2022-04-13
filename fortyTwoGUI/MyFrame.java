@@ -5,8 +5,8 @@ import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 
 public class MyFrame extends JFrame {
-	
-	ImageIcon image = new ImageIcon("/assets/42_logo.png");
+
+	ImageIcon image = new ImageIcon("assets/42_logo.png");
 
 	MyFrame(){
 		this.setTitle("42 random GUI");

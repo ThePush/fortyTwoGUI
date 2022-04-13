@@ -14,7 +14,7 @@ public class fortyTwoGUI {
 
 	public void TrackButton() {
 
-		ImageIcon icon = new ImageIcon("/assets/discord.png");
+		ImageIcon icon = new ImageIcon("assets/discord.png");
 
 		b1.setText("Discord");
 		b1.setBounds(50, 300, 200, 50);
