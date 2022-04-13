@@ -7,8 +7,7 @@ import java.awt.*;
 import javax.swing.*;
 
 public class fortyTwoGUI {
-	//protected JButton b1, b2, b3;
-	//protected JFrame frame;
+
 	MyButton b1 = new MyButton();
 	MyButton b2 = new MyButton();
 	MyButton b3 = new MyButton();
