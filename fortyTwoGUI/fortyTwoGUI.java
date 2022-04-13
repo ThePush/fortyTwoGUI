@@ -1,4 +1,4 @@
-package mainjava;
+package fortyTwoGUI;
 
 import java.awt.event.*;
 import java.io.*;
@@ -6,7 +6,7 @@ import java.awt.*;
 
 import javax.swing.*;
 
-public class mainjava {
+public class fortyTwoGUI {
 	//protected JButton b1, b2, b3;
 	//protected JFrame frame;
 	MyButton b1 = new MyButton();
@@ -77,7 +77,7 @@ public class mainjava {
 	}
 
 	public static void main(String[] args) {
-		mainjava jb = new mainjava();
+		fortyTwoGUI jb = new fortyTwoGUI();
 		jb.TrackButton();
 	}
 }
