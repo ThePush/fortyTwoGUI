@@ -23,12 +23,10 @@ public class mainjava {
 		b1.addActionListener(actions);
 		b1.setIcon(icon);
 
-		MyButton b2 = new MyButton();
 		b2.setText("Beta");
 		b2.setBounds(50, 360, 200, 50);
 		b2.addActionListener(actions);
 		
-		MyButton b3 = new MyButton();
 		b3.setText("Exit");
 		b3.setBounds(50, 420, 200, 50);
 		b3.addActionListener(actions);
