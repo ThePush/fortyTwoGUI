@@ -5,6 +5,8 @@ import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 
 public class MyFrame extends JFrame {
+	
+	ImageIcon image = new ImageIcon("/assets/42_logo.png");
 
 	MyFrame(){
 		this.setTitle("42 random GUI");
@@ -14,7 +16,6 @@ public class MyFrame extends JFrame {
 		this.getContentPane().setBackground(new Color(0x123456));
 		this.setResizable(false);
 
-		ImageIcon image = new ImageIcon("42_logo.png");
 		this.setIconImage(image.getImage());
 	}
 }

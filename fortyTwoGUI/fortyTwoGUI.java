@@ -12,15 +12,14 @@ public class fortyTwoGUI {
 	MyButton b2 = new MyButton();
 	MyButton b3 = new MyButton();
 
-
 	public void TrackButton() {
 
-		ImageIcon icon = new ImageIcon("discord.png");
+		ImageIcon icon = new ImageIcon("/assets/discord.png");
 
 		b1.setText("Discord");
 		b1.setBounds(50, 300, 200, 50);
-		b1.addActionListener(actions);
 		b1.setIcon(icon);
+		b1.addActionListener(actions);
 
 		b2.setText("Beta");
 		b2.setBounds(50, 360, 200, 50);
